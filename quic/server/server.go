@@ -38,6 +38,7 @@ func dealSession(sess quic.Session) {
 		panic(err)
 	} else {
 		for {
+			fmt.Printf("%#v\n", "copy11")
 			_, err = io.Copy(loggingWriter{stream}, stream)
 		}
 	}

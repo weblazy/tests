@@ -12,8 +12,9 @@ require (
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang/protobuf v1.4.3 // indirect
 	github.com/google/uuid v1.2.0 // indirect
-	github.com/lucas-clemente/quic-go v0.19.3 // indirect
-	github.com/spf13/cast v1.3.1 // indirect
+	github.com/lucas-clemente/quic-go v0.19.3
+	github.com/mattn/go-oci8 v0.1.1
+	github.com/spf13/cast v1.3.1
 	go.uber.org/zap v1.16.0 // indirect
 	golang.org/x/net v0.0.0-20201021035429-f5854403a974
 	google.golang.org/genproto v0.0.0-20210207032614-bba0dbe2a9ea // indirect
